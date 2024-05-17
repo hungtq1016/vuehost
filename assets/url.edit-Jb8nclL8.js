@@ -1,0 +1,1 @@
+import{g as i,a as c}from"./request.helper-Dd_ZrsNF.js";import{d as f,a3 as u}from"./index-uPjlTW5-.js";const s=f({}),l=async a=>{i("/api/urls/"+a).then(t=>{t!=null&&t.data&&(s.value=t.data)})},d=async()=>{const a=await c("/api/urls/"+s.value.id,s.value);a!=null&&a.data&&u(a.message)};export{d as a,l as f,s};
