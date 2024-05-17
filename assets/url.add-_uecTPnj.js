@@ -1,1 +1,0 @@
-import{p as e}from"./request.helper-Dd_ZrsNF.js";import{r as o}from"./util.object-9m6X7yey.js";import{d as r,ad as i,a3 as c}from"./index-uPjlTW5-.js";const a={label:"",slug:"",imageUrl:"",type:"",tag:"",groupId:"-1",enable:!0},u=r([]),t=i({...a}),g=async()=>{const s=await e("/api/urls",t);s!=null&&s.data&&(c(s.message),o(t,a))};export{g as a,u as g,t as s};
